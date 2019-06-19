@@ -143,7 +143,6 @@ function fillEmptyClasses() {
         setClassColor(newTable[y][x]),
         " y" + y + "x" + x
       ];
-      console.log(newTable[y][x].class + " color " + newTable[y][x].isCliced);
     }
   }
   reDrawTable();
